@@ -9,9 +9,10 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Jelena" />
 
 
-<title>Jelena Milicev - Academic Page</title>
+<title>Untitled</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -193,29 +194,61 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Jelena Milicev - Academic Page</h1>
+<h1 class="title toc-ignore">Untitled</h1>
+<h4 class="author"><em>Jelena</em></h4>
+<h4 class="date"><em>21/11/2018</em></h4>
 
 </div>
 
 
-<ul>
-<li><a href="Education.html">Education</a></li>
-<li><a href="Employment.html">Employment &amp; Teaching experience</a></li>
-<li><a href="res_exp.html">Research experience</a></li>
-<li><a href="Publications.html">Publications &amp; Conferences</a></li>
-</ul>
-<div id="about-me" class="section level1">
-<h1>About Me</h1>
-<p>I am a postgraduate student in the University of Glasgow’s <a href="http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/">Institute of Neuroscience and Psychology</a>. I work with <a href="http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/">Dr Maria Gardani</a></p>
-
-<div id="contact-details" class="section level3">
-<h3>Contact details</h3>
-<ul>
-<li>Work email: <a href="mailto:2148601m@student.gla.ac.uk">2148601m@student.gla.ac.uk</a></li>
-<li>Personal email: <a href="mailto:pancevo@msn.com">pancevo@msn.com</a></li>
-<li>Phone: +44 7899397038</li>
-</ul>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="09_class_notes_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<pre class="r"><code>library(tidyverse)
+
+set.seed(9122005) # for reproducibility
+
+two_sample &lt;- function(diff = 0.5, n_per_group = 20) {
+  tibble(Y = c(rnorm(n_per_group, -.5 * diff, sd = 1),
+               rnorm(n_per_group, .5 * diff, sd = 1)),
+         grp = factor(rep(c(&quot;a&quot;, &quot;b&quot;), each = n_per_group)),
+         grp_d = rep(c(0, 1), each = n_per_group))
+}
+
+data_set_1 &lt;- two_sample()
+group_a &lt;- data_set_1 %&gt;% filter(grp ==&quot;a&quot;) %&gt;% pull(Y)
+group_b &lt;- data_set_1 %&gt;% filter(grp ==&quot;b&quot;) %&gt;% pull(Y)
+my_t &lt;- t.test(group_a, group_b, var.equal = TRUE)</code></pre>
+</div>
+<div id="linera-regression" class="section level2">
+<h2>Linera regression</h2>
+<pre class="r"><code>my_regression &lt;- lm(Y~grp, data_set_1)</code></pre>
+</div>
+<div id="anova" class="section level1">
+<h1>ANOVA</h1>
+<pre class="r"><code>my_anova &lt;- aov(Y~grp, data_set_1)
+
+
+c(p_t = broom::tidy(my_t) %&gt;% pull(p.value),
+  p_lm = broom::tidy(my_regression) %&gt;% pull(p.value) %&gt;% pluck(2),
+  p_aov = broom::tidy(my_anova) %&gt;% pull(p.value) %&gt;% pluck(1))</code></pre>
+<pre><code>##       p_t      p_lm     p_aov 
+## 0.5233313 0.5233313 0.5233313</code></pre>
 </div>
 
 

@@ -1,0 +1,29 @@
+---
+title: "Training & Education"
+output: html_document
+---
+
+
+
+# EDUCATION
+
+## MSc Research Methods of Psychological Science 
+University of Glasgow
+Expected completion September, 2019. Supervised by [Dr Maria Gardani](https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/) . Thesis topic: "PGR student mental health" 
+
+## MA Hons Psychology 
+University of Glasgow, 2018
+Thesis title: “Personal relationships in Trichotillomania”, supervised by Dr Maxine Swingler and Dr Judith Stevenson
+
+## PGC TESOL
+Sheffield Hallam University, 2013
+Thesis title: Error Correction in ESOL Classroom
+
+## MA English Studies 
+University of Sheffield, 2011
+Thesis title: “You and Thou in Shakespeare’s plays”, supervised by Dr James Fitzmaurice 
+
+## BA in Slavonic studies 
+University of Belgrade, 2011
+
+
