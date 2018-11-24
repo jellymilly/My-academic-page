@@ -1,17 +1,23 @@
 ---
 title: "Jelena Milicev - Academic Page"
 ---
+<img src="Me.jpg" alt="Me Face" align=right style="float:right;border:5px ; margin: 20px 20px;" height="700px" width="400px"/>
+
+
 * [Education](Education.html) 
 * [Employment & Teaching experience](Employment.html) 
 * [Research experience](res_exp.html)
 * [Publications & Conferences](Publications.html)
 
+
 # About Me 
 I am a postgraduate student in the University of Glasgow's
 [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/).
-I work with [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/)
+I work with [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello]()
 
 \newline
+
+
 
 ### Contact details
 * Work email: 2148601m@student.gla.ac.uk
