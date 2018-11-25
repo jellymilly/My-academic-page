@@ -1,30 +1,19 @@
 ---
-title: "Jelena Milicev - Academic Page"
+title: "Jelena Milicev"
 ---
 <img src="Me.jpg" alt="Me Face" align=right style="float:right;border:5px ; margin: 20px 20px;" height="700px" width="400px"/>
 
-
+* [Current research](Current_research.html)
 * [Education](Education.html) 
 * [Employment & Teaching experience](Employment.html) 
 * [Research experience](res_exp.html)
 * [Publications & Conferences](Publications.html)
 
-
+<br><br><br>
 # About Me 
 I am a postgraduate student in the University of Glasgow's
 [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/).
-I work with [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello]()
-
-\newline
-
-
-
-### Contact details
-* Work email: 2148601m@student.gla.ac.uk
-* Personal email: pancevo@msn.com
-* Phone: +44 7899397038
-
-
-
+I work in the Sleep Lab, supervised by [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/). 
+I completed my undergrdauate degree in Psychology with a First Class Honours degree at the University of Glasgow in 2018. Previously, I worked as a lecturer in Academic English, primary teacher, translator and journalist. As someone who has lucky enough to enjoy a portfolio career spanning two decades and four countries, I am pashionate about international collaboration, freedom of movement and knowledge exchange. My research interests include student mental health and well-being, sleep and body-focused repetitive behaviours. I use quantitative and qualitative researh methods and my projects are pre-registered with PROSEPRO and Open Science Framework websites. I enjoy dedicating my free time to volunteernig at hospitals, care homes and university halls and events with my therapet dog Pixie.
 
 
