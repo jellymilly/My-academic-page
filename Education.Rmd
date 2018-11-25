@@ -1,29 +1,58 @@
 ---
-title: "Training & Education"
+title: "Education"
 output: html_document
 ---
 
 
-
-# EDUCATION
-
-## MSc Research Methods of Psychological Science 
+* MSc Research Methods of Psychological Science 
 University of Glasgow
-Expected completion September, 2019. Supervised by [Dr Maria Gardani](https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/) . Thesis topic: "PGR student mental health" 
+<br>
+Expected completion: September, 2019. 
+<br>
+Thesis topic: "PGR Student Mental Health and Well-Being" 
+Supervised by [Dr Maria Gardani](https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/). 
 
-## MA Hons Psychology 
-University of Glasgow, 2018
-Thesis title: “Personal relationships in Trichotillomania”, supervised by Dr Maxine Swingler and Dr Judith Stevenson
+* MA Hons Psychology 
+University of Glasgow, 2018.
+<br>
+Thesis title: “Personal relationships in Trichotillomania”
+<br>
+Supervised by [Dr Maxine Swingler](https://www.gla.ac.uk/schools/psychology/staff/maxineswingler/) and [Judith Stevenson](https://www.gla.ac.uk/schools/psychology/staff/judestevenson/)
 
-## PGC TESOL
-Sheffield Hallam University, 2013
-Thesis title: Error Correction in ESOL Classroom
+* PGC TESOL
+Sheffield Hallam University, 2013.
+<br>
+Thesis title: "Error Correction in ESOL Classroom"
 
-## MA English Studies 
-University of Sheffield, 2011
-Thesis title: “You and Thou in Shakespeare’s plays”, supervised by Dr James Fitzmaurice 
+* MA English Studies 
+University of Sheffield, 2011.
+<br>
+Thesis title: “You and Thou in Shakespeare’s plays”
+<br>
+Supervised by [Prof Emeritus James Fitzmaurice](https://www.sheffield.ac.uk/english/people/fitzmauricej)
 
-## BA in Slavonic studies 
-University of Belgrade, 2011
+* BA in Slavonic studies 
+University of Belgrade, 2011.
+<br><br>
+
+## Professional Training & Skills
+* Statistical packages R and SPSS
+<br>
+* Qualitative Software NVivo
+* Systematic review and meta-analysis software: EPPI-4, Rayyan, Distiller, RevMan 5
+<br>
+* Network analysis using R
+<br>
+* Participant preparation and safety measures in MEG studies
+<br>
+* CLIL: Content and Language Integradted Learning 
+<br>
+* Jolly Phonics: A Phonetic Approach to Teaching Literacy
+<br>
+Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency
+<br>
+* Using Emotional Intelligence in Teaching
+<br>
+* Teaching Foreign Language through Arts and Crafts
 
 
