@@ -17,33 +17,30 @@ output: html_document
 * 2000-2003 	Freelance Translator; London
 
 * 1997-2003 	Journalist, UK correspondent; Weekly Newspaper “Pancevac”, Radio Pancevo, Serbia
+<br><br>
 
+## Teaching experience
 
-
-
-
-#Teaching experience
-
-### University of Glasgow
+* University of Glasgow
 Mentoring an undergraduate student, advising on qualitative methodology for her final project on Trichotillomania and expressed emotion 
 
-### University of the West of Scotland, UK
+* University of the West of Scotland, UK
 Listening, speaking and presentation skills for Academic English for international undergraduate and graduate students
 
-### European University of Madrid, Spain
-General English courses for undergraduate students
-English for Academic Purposes
-General English course for academic staff  
-Teacher training workshops on error correction
-Teacher training in Common European Framework of Reference for Languages
-Teacher Training in Language Testing
+* European University of Madrid, Spain
+    General English courses for undergraduate students
+    English for Academic Purposes
+    General English course for academic staff  
+    Teacher training workshops on error correction
+    Teacher training in Common European Framework of Reference       for Languages
+    Teacher Training in Language Testing
 
-### Primary School Mirabal, Madrid, Spain
+* Primary School Mirabal, Madrid, Spain
 English as a second language classes for primary school
 Phonics and literacy classes
 Arts and crafts classes
 
-### Big Ben Language School
+* Big Ben Language School
 English as a foreign language classes for children and adults
 Cambridge Exam preparation classes 
 
