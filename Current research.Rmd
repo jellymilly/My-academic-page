@@ -1,8 +1,12 @@
 ---
-title: "Current research"
-output: html_document
+title: "  "
+output: 
+  html_document:
+    toc: FALSE
 ---
+<br>
 
+# **Current research**
 I am currently reseraching postgradute student mental health and well-being, supervised by [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/). Our project is funded by University of Glasgow Research and Innovation Services. the study looks into postgraduate research student (PGR) mental health and well-being. [Official records](https://www.hesa.ac.uk/data-and-analysis/students/table-15) show that less than 2% of postgraduate students in the UK report a mental health condition to their institution. Nevertheless, scientific studies using smaller samples paint a different picture, implying that many more postgraduates might be suffering in silence. Recent findings indicate that around half of postgraduate students in the  [States](https://www.deepdyve.com/lp/springer-journal/mental-health-and-suicidal-behavior-among-graduate-students-5eH2yfCwem?key=springer) and [Belgium](https://ciencias.ulisboa.pt/sites/default/files/fcul/investigacao/Work%20organization%20and%20mental%20health%20problems%20in%20PhD%20students.pdf) endorse emotional problems and psychological distress, while around a third of graduate heathcare students in [Brasil](http://www.scielo.br/pdf/rbp/v27n3/a07v27n3.pdf) and [Belgium](https://ciencias.ulisboa.pt/sites/default/files/fcul/investigacao/Work%20organization%20and%20mental%20health%20problems%20in%20PhD%20students.pdf) show symptoms of common mental disorders, including stress, insomnia, fatigue, irritability, forgetfulness, anhedonia, inability to concentrate or overcome difficulties. According to the a large survey at [Berkeley, California](http://ga.berkeley.edu/wp-content/uploads/2015/04/wellbeingreport_2014.pdf), main predictors of graduate mental health and life satisfaction include career prospects, overall health, living conditions, academic engagement, and social support.
 
 <br>

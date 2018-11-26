@@ -15,10 +15,13 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -103,34 +106,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 </style>
 
@@ -167,6 +170,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -177,11 +275,28 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My First Webpage</a>
+      <a class="navbar-brand" href="index.html">Jelena Milicev</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="Current_research.html">Current research</a>
+</li>
+<li>
+  <a href="Education.html">Education &amp; Traning</a>
+</li>
+<li>
+  <a href="Employment.html">Employment</a>
+</li>
+<li>
+  <a href="res_exp.html">Research Experience</a>
+</li>
+<li>
+  <a href="Publications.html">Publications</a>
+</li>
+<li>
+  <a href="My_Abstracts.html">Abstracts</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -202,18 +317,18 @@ $(document).ready(function () {
 <div id="publications" class="section level1">
 <h1>Publications</h1>
 <ul>
-<li>2019, Kocic, A. &amp; Milicev, J. (2019) “Where is Local in a National Region?” International Journal of Digital Media and Policy (in press)</li>
-<li>2014 Milicev, J. (2014) “Correct Me if I’m Wrong, but Do It Right: Error Correction and Learner Uptake in University-level EFL Classrooms”. Athens Journal of Philology, 1, 4, 259-71</li>
+<li><p>2019, Kocic, A. &amp; Milicev, J. (2019) “Where is Local in a National Region?” International Journal of Digital Media and Policy (in press)</p></li>
+<li><p>2014 Milicev, J. (2014) “Correct Me if I’m Wrong, but Do It Right: Error Correction and Learner Uptake in University-level EFL Classrooms”. Athens Journal of Philology, 1, 4, 259-71</p></li>
 </ul>
 </div>
 <div id="conferences" class="section level1">
 <h1>Conferences</h1>
 <ul>
-<li>2018 “Where is Local in a National Region?” - paper presented at the RIPE, 2018 - Universalism and Public Service Media International Conference, University of Navarra, Madrid, October 18-20th, 2018</li>
-<li>2018 “Personal relationships in Trichotillomania” – paper presented at the 2nd International IPA Conference, Caledonian University, Glasgow, July 26-27th, 2018</li>
-<li>2018 “Personal relationships in Trichotillomania” – paper presented at the BPS Student conference at the University of Glasgow, March 24th, 2018</li>
-<li>2014 Words of Passion, Words of Rage - You and Thou in Shakespeare’s Othello - Paper presented at Othello’s Island, 2nd Annual Conference on Medieval and Renaissance Cyprus, Larnaca, Cyprus, April, 9-12th, 2014</li>
-<li>2014 Error Correction and Learner Uptake in University-level EFL classroom – Paper presented at 7th Annual International Conference on Languages &amp; Linguistics, 7-10th July 2014, Athens, Greece</li>
+<li><p>2018 “Where is Local in a National Region?” - paper presented at the RIPE, 2018 - Universalism and Public Service Media International Conference, University of Navarra, Madrid, October 18-20th, 2018</p></li>
+<li><p>2018 “Personal relationships in Trichotillomania” – paper presented at the 2nd International IPA Conference, Caledonian University, Glasgow, July 26-27th, 2018</p></li>
+<li><p>2018 “Personal relationships in Trichotillomania” – paper presented at the BPS Student conference at the University of Glasgow, March 24th, 2018</p></li>
+<li><p>2014 “Words of Passion, Words of Rage - You and Thou in Shakespeare’s Othello” - Paper presented at Othello’s Island, 2nd Annual Conference on Medieval and Renaissance Cyprus, Larnaca, Cyprus, April, 9-12th, 2014</p></li>
+<li><p>2014 Error Correction and Learner Uptake in University-level EFL classroom – Paper presented at 7th Annual International Conference on Languages &amp; Linguistics, 7-10th July 2014, Athens, Greece</p></li>
 </ul>
 <p><img src="Images/IPA%20conference.jpg" height="900px" width="600px"></p>
 <p><a href="images/IPA%20conference.jpg">Presenting at 2nd International IPA Conference, Caledonian University, Glasgow, 2018</a></p>
@@ -221,6 +336,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 

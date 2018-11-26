@@ -1,7 +1,12 @@
 
-html {
-  font-size: 2em;
+p {
+  font-size: 1.5em;
   font-family: "Times New Roman";
-  color: white;
-  background-color: hsl(360, 100%, 20%);
+  color: black;
 }
+
+h1, h2, h3 {
+  text-align: left;
+  color: black;
+}
+

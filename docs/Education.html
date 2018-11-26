@@ -11,14 +11,17 @@
 
 
 
-<title>Education</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -103,34 +106,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 </style>
 
@@ -167,6 +170,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -177,11 +275,28 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My First Webpage</a>
+      <a class="navbar-brand" href="index.html">Jelena Milicev</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="Current_research.html">Current research</a>
+</li>
+<li>
+  <a href="Education.html">Education &amp; Traning</a>
+</li>
+<li>
+  <a href="Employment.html">Employment</a>
+</li>
+<li>
+  <a href="res_exp.html">Research Experience</a>
+</li>
+<li>
+  <a href="Publications.html">Publications</a>
+</li>
+<li>
+  <a href="My_Abstracts.html">Abstracts</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -194,11 +309,13 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Education</h1>
 
 </div>
 
 
+<p><br></p>
+<div id="education" class="section level1">
+<h1><strong>Education</strong></h1>
 <ul>
 <li><p>MSc Research Methods of Psychological Science University of Glasgow <br> Expected completion: September, 2019. <br> Thesis topic: “PGR Student Mental Health and Well-Being” Supervised by <a href="https://www.gla.ac.uk/schools/psychology/staff/mariagardani/">Dr Maria Gardani</a> and <a href="https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/">Prof Stephany Biello</a>.</p></li>
 <li><p>MA Hons Psychology University of Glasgow, 2018. <br> Thesis title: “Personal relationships in Trichotillomania” <br> Supervised by <a href="https://www.gla.ac.uk/schools/psychology/staff/maxineswingler/">Dr Maxine Swingler</a> and <a href="https://www.gla.ac.uk/schools/psychology/staff/judestevenson/">Judith Stevenson</a></p></li>
@@ -206,23 +323,27 @@ $(document).ready(function () {
 <li><p>MA English Studies University of Sheffield, 2011. <br> Thesis title: “You and Thou in Shakespeare’s plays” <br> Supervised by <a href="https://www.sheffield.ac.uk/english/people/fitzmauricej">Prof Emeritus James Fitzmaurice</a></p></li>
 <li><p>BA in Slavonic studies University of Belgrade, 2011. <br><br></p></li>
 </ul>
-<div id="professional-training-skills" class="section level2">
-<h2>Professional Training &amp; Skills</h2>
+</div>
+<div id="professional-training-skills" class="section level1">
+<h1><strong>Professional Training &amp; Skills</strong></h1>
 <ul>
-<li>Statistical packages R and SPSS <br></li>
-<li>Qualitative Software NVivo</li>
-<li>Systematic review and meta-analysis software: EPPI-4, Rayyan, Distiller, RevMan 5 <br></li>
-<li>Network analysis using R <br></li>
-<li>Participant preparation and safety measures in MEG studies <br></li>
-<li>CLIL: Content and Language Integradted Learning <br></li>
-<li>Jolly Phonics: A Phonetic Approach to Teaching Literacy <br> Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency <br></li>
-<li>Using Emotional Intelligence in Teaching <br></li>
-<li>Teaching Foreign Language through Arts and Crafts</li>
+<li><p>Statistical packages R and SPSS</p></li>
+<li><p>Qualitative Software NVivo</p></li>
+<li><p>Systematic review and meta-analysis software: EPPI-4, Rayyan, Distiller, RevMan 5</p></li>
+<li><p>Network analysis using R</p></li>
+<li><p>Participant preparation and safety measures in MEG studies</p></li>
+<li><p>CLIL: Content and Language Integradted Learning</p></li>
+<li><p>Jolly Phonics: A Phonetic Approach to Teaching Literacy</p></li>
+<li><p>Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency</p></li>
+<li><p>Using Emotional Intelligence in Teaching</p></li>
+<li><p>Teaching Foreign Language through Arts and Crafts</p></li>
 </ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

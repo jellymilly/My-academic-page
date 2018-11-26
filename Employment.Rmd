@@ -1,9 +1,10 @@
 ---
-title: "Employment"
+title: "  "
 output: html_document
 ---
+<br>
 
-
+## **Employment**
 * 2015-2016 	Lecturer of Academic English; University of the West of Scotland, Paisley
 
 * 2012-2014 	Lecturer of English as a Foreign Language; European University of Madrid, Spain
@@ -19,7 +20,7 @@ output: html_document
 * 1997-2003 	Journalist, UK correspondent; Weekly Newspaper “Pancevac”, Radio Pancevo, Serbia
 <br><br>
 
-## Teaching experience
+## **Teaching experience**
 
 * University of Glasgow
 Mentoring an undergraduate student, advising on qualitative methodology for her final project on Trichotillomania and expressed emotion 

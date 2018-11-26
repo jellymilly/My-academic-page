@@ -1,9 +1,10 @@
 ---
-title: "Education"
+title: "  "
 output: html_document
 ---
+<br>
 
-
+# **Education**
 * MSc Research Methods of Psychological Science 
 University of Glasgow
 <br>
@@ -35,24 +36,25 @@ Supervised by [Prof Emeritus James Fitzmaurice](https://www.sheffield.ac.uk/engl
 University of Belgrade, 2011.
 <br><br>
 
-## Professional Training & Skills
+# **Professional Training & Skills**
 * Statistical packages R and SPSS
-<br>
+
 * Qualitative Software NVivo
+
 * Systematic review and meta-analysis software: EPPI-4, Rayyan, Distiller, RevMan 5
-<br>
+
 * Network analysis using R
-<br>
+
 * Participant preparation and safety measures in MEG studies
-<br>
+
 * CLIL: Content and Language Integradted Learning 
-<br>
+
 * Jolly Phonics: A Phonetic Approach to Teaching Literacy
-<br>
-Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency
-<br>
+
+* Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency
+
 * Using Emotional Intelligence in Teaching
-<br>
+
 * Teaching Foreign Language through Arts and Crafts
 
 

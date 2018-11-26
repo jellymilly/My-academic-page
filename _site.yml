@@ -4,7 +4,26 @@ output_dir: "docs"
 output:  
   html_document:  
     self_contained: no  
-    theme: flatly
+    theme: cosmo
     css: style.css
+    toc: yes
+    toc_depth: 3
+    toc_float: TRUE
 navbar:  
-  title: "My First Webpage"  
+  title: "Jelena Milicev"
+  left:
+    - text: "Current research"
+      href: Current_research.html
+    - text: "Education & Traning"
+      href: Education.html
+    - text: "Employment"
+      href: Employment.html
+    - text: "Research Experience"
+      href: res_exp.html
+    - text: "Publications"
+      href: Publications.html
+    - text: "Abstracts"
+      href: My_Abstracts.html
+      
+      
+      

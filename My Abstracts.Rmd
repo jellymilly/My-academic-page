@@ -1,8 +1,12 @@
 ---
-title: "My Abstracts"
-output: html_document
+title: "  "
+output: 
+  html_document:
+    toc: FALSE
 ---
+<br>
 
+# **My Abstracts**
 * **"Trichotillomania and Personal Relationships"**
 <br>
 (Milicev, J, Stevenson J., Swingler, M., in preparation)
