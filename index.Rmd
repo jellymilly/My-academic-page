@@ -1,19 +1,36 @@
 ---
 title: "Jelena Milicev"
 ---
-! [Pix at UofG](/Users/jelenamilicev/Documents/Pix at UofG.jpg)
+<div class="col2">
+<br>
+[Volunteering at UofG Open Day](images/Pix at UofG.jpg)
+<img src="images/Pix at UofG.jpg" height="600px" width="300px" align="right">
 
 
+
+<br>
 * [Current research](Current_research.html)
+<br>
 * [Education & Training](Education.html) 
-* [Employment & Teaching experience](Employment.html) 
+<br>
+* [Employment & Teaching experience](Employment.html)
+<br>
 * [Research experience](res_exp.html)
+<br>
 * [Publications & Conferences](Publications.html)
+<br>
+* [My Abstracts](Abstracts.html)
 
+</div>
+
+<br><br>
 
 # About Me 
 I am a postgraduate student in the University of Glasgow's
 [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/), supervised by [Dr Maria Gardani](http://https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/). 
 I completed my undergrdauate degree in Psychology with a First Class Honours degree at the University of Glasgow in 2018. Previously, I worked as a lecturer in Academic English, primary teacher, translator and journalist. Having been lucky enough to enjoy a portfolio career spanning two decades and four countries, I am pashionate about international collaboration, freedom of movement and knowledge exchange. My research interests include student mental health and well-being, sleep and body-focused repetitive behaviours. I use quantitative and qualitative researh methods and my projects are pre-registered with [PROSEPRO](https://www.crd.york.ac.uk/prospero/) and [Open Science Framework](http://help.osf.io/m/registrations/l/524205-register-your-project) websites. I enjoy dedicating my free time to volunteernig in hospitals, care homes and university halls and events with my therapet dog Pixie.
+
 <br><br>
-! [University of Glasgow]("/Users/jelenamilicev/Documents/scotland.jpg")
+<img src="images/scotland.jpg" height="100px" width="1100px">
+
+[University of Glasgow](images/scotland.jpg)
