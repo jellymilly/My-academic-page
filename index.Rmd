@@ -7,7 +7,7 @@ output:
 
 <br>
 
-#**Jelena Milicev**
+#**About Me**
 I am a postgraduate student in the University of Glasgow's
 [Institute of Neuroscience and Psychology](http://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/). This year, I have received a scholarship from the University of Glasgow [Research and Innovation Servies](https://www.gla.ac.uk/myglasgow/ris/) to study postgraduate student mental health and well-being, supervised by [Dr Maria Gardani](https://www.gla.ac.uk/schools/psychology/staff/mariagardani/) and [Prof Stephany Biello](https://www.gla.ac.uk/schools/psychology/staff/stephanybiello/).  
 

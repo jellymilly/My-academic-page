@@ -10,7 +10,7 @@ output:
     toc_depth: 4
     toc_float: TRUE
 navbar:  
-  title: "Home"
+  title: "Jelena Milicev"
   left:
     - text: "Current research"
       href: Current_research.html
