@@ -284,19 +284,19 @@ div.tocify {
   <a href="Current_research.html">Current research</a>
 </li>
 <li>
-  <a href="Education.html">Education &amp; Traning</a>
+  <a href="Publications.html">Research Output</a>
 </li>
 <li>
-  <a href="Employment.html">Employment</a>
+  <a href="My_Abstracts.html">Abstracts</a>
 </li>
 <li>
   <a href="res_exp.html">Research Experience</a>
 </li>
 <li>
-  <a href="Publications.html">Publications</a>
+  <a href="Education.html">Education &amp; Traning</a>
 </li>
 <li>
-  <a href="My_Abstracts.html">Abstracts</a>
+  <a href="Employment.html">Employment</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -335,9 +335,16 @@ div.tocify {
 <p>You can also embed plots, for example:</p>
 <p><img src="09_class_notes_files/figure-html/pressure-1.png" width="672" /></p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
-<pre class="r"><code>library(tidyverse)
-
-set.seed(9122005) # for reproducibility
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
+## ✔ tibble  1.4.2     ✔ dplyr   0.7.6
+## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
+## ✔ readr   1.1.1     ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>set.seed(9122005) # for reproducibility
 
 two_sample &lt;- function(diff = 0.5, n_per_group = 20) {
   tibble(Y = c(rnorm(n_per_group, -.5 * diff, sd = 1),

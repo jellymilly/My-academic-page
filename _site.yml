@@ -14,16 +14,15 @@ navbar:
   left:
     - text: "Current research"
       href: Current_research.html
+    - text: "Research Output"
+      href: Publications.html
+    - text: "Abstracts"
+      href: My_Abstracts.html
+    - text: "Research Experience"
+      href: res_exp.html
     - text: "Education & Traning"
       href: Education.html
     - text: "Employment"
       href: Employment.html
-    - text: "Research Experience"
-      href: res_exp.html
-    - text: "Publications"
-      href: Publications.html
-    - text: "Abstracts"
-      href: My_Abstracts.html
-      
-      
+  
       
