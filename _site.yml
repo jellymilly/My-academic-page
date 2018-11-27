@@ -7,7 +7,7 @@ output:
     theme: cosmo
     css: style.css
     toc: yes
-    toc_depth: 3
+    toc_depth: 4
     toc_float: TRUE
 navbar:  
   title: "Jelena Milicev"
