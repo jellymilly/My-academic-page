@@ -5,19 +5,19 @@ output: html_document
 <br>
 
 ## **Employment**
-* 2015-2016 	Lecturer of Academic English; University of the West of Scotland, Paisley
+* **2015-2016**: 	Lecturer in Academic English; University of the West of Scotland, Paisley, UK
 
-* 2012-2014 	Lecturer of English as a Foreign Language; European University of Madrid, Spain
+* **2012-2014**: 	Lecturer in English as a Foreign Language; European University of Madrid, Spain
 
-* 2011-2014	Cambridge ESOL Speaking Examiner, Escuelas Catolicas, Madrid, Spain
+* **2011-2014**:	 Cambridge ESOL Speaking Examiner, Escuelas Catolicas, Madrid, Spain
 
-* 2008 -2012 	English Teacher, Primary School Mirabal, Madrid; Big Ben School, Burgos, Spain
+* **2008 -2012**: 	English Teacher, Primary School Mirabal, Madrid, Spain
 
-* 2004-2008	English Teacher; Big Ben Language School, Burgos, Spain
+* **2004-2008**:	 English Teacher; Big Ben Language School, Burgos, Spain
 
-* 2000-2003 	Freelance Translator; London
+* **2000-2003**: 	Freelance Translator; London, UK
 
-* 1997-2003 	Journalist, UK correspondent; Weekly Newspaper “Pancevac”, Radio Pancevo, Serbia
+* **1997-2003**: 	Journalist, Weekly Newspaper “Pancevac”, Radio Pancevo, Serbia
 <br><br>
 
 ## **Teaching experience**

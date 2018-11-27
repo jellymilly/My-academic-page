@@ -37,21 +37,28 @@ University of Belgrade, 2011.
 <br><br>
 
 # **Professional Training & Skills**
-* Statistical packages R and SPSS
+* Using R Studio for data wrangling, analysis, visualisation and simulation
+
+* RMarkdown repoducible scripts and web design
+
+* Data recording and analysis using SPSS
 
 * Qualitative Software NVivo
 
+* Designing and conducting qualitative interviews and focus groups
+
 * Systematic review and meta-analysis software: EPPI-4, Rayyan, Distiller, RevMan 5
 
-* Network analysis using R
-
 * Participant preparation and safety measures in MEG studies
+
+* Peer and self-observation in educational research
 
 * CLIL: Content and Language Integradted Learning 
 
 * Jolly Phonics: A Phonetic Approach to Teaching Literacy
 
-* Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of profieciency
+* Cambridge ESOL Oral Langauge Assessment: examiner training for all levels of 
+profieciency
 
 * Using Emotional Intelligence in Teaching
 

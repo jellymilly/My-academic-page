@@ -6,24 +6,24 @@ output: html_document
 
 ## **Publications**
 
-* Kocic, A. & Milicev, J. (2019) "Where is Local in a National Region?" _International Journal of Digital Media and Policy_ (in press)
+* Kocic, A. & Milicev, J. (2019) "Where is Local in a National Region?" [_Journal of Digital Media and Policy_](https://www.intellectbooks.co.uk/journals/view-issue,id=3560/) (in press)
 
-* Milicev, J. [(2014) "Correct Me if I’m Wrong, but Do It Right: Error Correction and Learner Uptake in University-level EFL Classrooms".](https://www.researchgate.net/publication/283644363_ATINER's_Conference_Paper_Series_LNG2014-1238_Error_Correction_and_Learner_Uptake_in_University-level_EFL_Classrooms) _Athens Journal of Philology, 1_, 4, 259-71
+* Milicev, J. (2014) ["Correct Me if I’m Wrong, but Do It Right: Error Correction and Learner Uptake in University-level EFL Classrooms"](https://www.atiner.gr/papers/LNG2014-1238.pdf) _Athens Journal of Philology, 1_, 4, 259-71
 
 <br>
 
 ## **Conference Proceedings**
-* "Where is Local in a National Region?" - paper presented at the [RIPE, 2018 - Universalism and Public Service Media International Conference](https://www.unav.edu/web/facultad-de-comunicacion/cicom34), University of Navarra, Madrid, October 18-20th, 2018
+* "Where is Local in a National Region?" - paper presented at the [RIPE, 2018 - Universalism and Public Service Media International Conference](https://www.unav.edu/web/facultad-de-comunicacion/cicom34), Madrid, October 18-20th, 2018
 
-* "Personal relationships in Trichotillomania" – paper presented at the [2nd International IPA Conference, Caledonian University, Glasgow](https://twitter.com/ConferenceIpa), July 26-27th, 2018
+* "Personal relationships in Trichotillomania" – paper presented at the [2nd International IPA Conference](https://twitter.com/ConferenceIpa), Glasgow, July 26-27th, 2018
 
-* "Personal relationships in Trichotillomania" – paper presented at the BPS Student conference at the University of Glasgow, March 24th, 2018
+* "Personal relationships in Trichotillomania" – paper presented at the [British Psychological Society (BPS) Scottish Branch Undergraduate Student Conference](https://www.gla.ac.uk/researchinstitutes/neurosciencepsychology/newsandevents/headline_546488_en.html), Glasgow, March 24th, 2018
 
-* Error Correction and Learner Uptake in University-level EFL classroom – Paper presented at [7th Annual International Conference on Languages & Linguistics ATINER](https://www.atiner.gr/languages), 7-10th July 2014, Athens, Greece
+* ["Error Correction and Learner Uptake in University-level EFL classroom"](https://www.atiner.gr/papers/LNG2014-1238.pdf) – Paper presented at [7th Annual International Conference on Languages & Linguistics, ATINER](https://www.atiner.gr/languages), Athens, 7-10th July 2014
 
-* ["Words of Passion, Words of Rage](https://www.researchgate.net/publication/283644307_You_and_Thou_in_Shakespeare's_Othello) - You and Thou in Shakespeare's Othello" - Paper presented at [Othello’s Island, 2nd Annual Conference on Medieval and Renaissance Cyprus](http://www.othellosisland.org/othello-2014), Larnaca, Cyprus, April, 9-12th, 2014
+* ["Words of Passion, Words of Rage](https://www.researchgate.net/publication/283644307_You_and_Thou_in_Shakespeare's_Othello) - You and Thou in Shakespeare's Othello" - Paper presented at [Othello’s Island, 2nd Annual Conference on Medieval and Renaissance Cyprus](http://www.othellosisland.org/othello-2014), Larnaca,  April, 9-12th, 2014
 
 <div style="float: right; width: 400px;">
   <img src="Images/IPA conference.jpg" style="width: 100%;">
-  2nd International IPA Conference, 2018
+  Presenting at the IPA Conference, 2018
 </div>
