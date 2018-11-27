@@ -37,7 +37,7 @@ University of Belgrade, 2011.
 <br><br>
 
 # **Professional Training & Skills**
-* Using R Studio for data wrangling, analysis, visualisation and simulation
+* R Studio for data wrangling, analysis, visualisation and simulation
 
 * RMarkdown repoducible scripts and web design
 
